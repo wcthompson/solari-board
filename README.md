@@ -53,7 +53,7 @@ Here's an example:
 
 It's simple!
 
-  1. Include the following lines in your HTML:
+  1. Include the following lines in your HTML (change filepaths as appropriate):
 
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'>
@@ -99,8 +99,8 @@ other browsers.  We'd welcome patches that help resolve this issue.
   (e.g. `today`, `next monday`)
 - The included example is a Python script that will connect to a FogBugz installation through
   the [xml api](https://developers.fogbugz.com/default.asp?W199). Just place all files and 
-  folders onto a Python-enabled CGI server, then `fbsettings.py` with your URL and
-  [FogBugz token](http://fogbugz.stackexchange.com/questions/900/how-do-i-get-an-xml-api-token).
+  folders onto a Python-enabled CGI server, then edit `fbsettings.py` with your URL and
+  [FogBugz token](http://fogbugz.stackexchange.com/questions/900/how-do-i-get-an-xml-api-token). The example is configured to run from within the example folder.
 
 ![FogBugz Solari Board](https://trello-attachments.s3.amazonaws.com/51bf2a13808218916c006928/51f02c885eee4b1708001f67/1b1ee7b798d88a6c39cf320d28146b36/fogbgzedition.PNG)
 
