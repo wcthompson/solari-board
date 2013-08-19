@@ -206,7 +206,7 @@ function NextDue(id, time, offset, status) {
     $(id + ' .today').html(offset);
     $(id + ' .clock').html(time);
     $(id + ' .inner').attr('class', 'inner'); // get rid of any existing classes
-    $(id + ' .inner').addClass(solariData[0] === EMPTY_ROW ? "later" : NextDueStatus[status]); // add the appropriate class based on status. If no data, green.
+    $(id + ' .inner').addClass(new_board[0] === EMPTY_ROW ? "later" : NextDueStatus[status]); // add the appropriate class based on status. If no data, green.
 }
 
 function UpdateSolariRow(row, current_row, new_row) {
